@@ -25,10 +25,10 @@ and place under `aptos2019/`.
 
 | Model | Task | Train Acc | Val Acc | Test Acc |
 |---|---|---|---|---|
-| Logistic Regression | Binary | 97.65% | 95.08% | 95.08% |
-| Shallow NN | Binary | 98.63% | 95.08% | 95.90% |
-| Logistic Regression | Multiclass | 65.78% | 50.00% | 46.71% |
-| Shallow NN | Multiclass | 70.25% | 56.19% | 49.10% |
+| Logistic Regression | Binary | 97.44% | 95.63% | 95.36% |
+| Shallow NN | Binary | 98.53% | 94.54% | 95.63% |
+| Logistic Regression | Multiclass | 56.28% | 46.39% | 42.51% |
+| Shallow NN | Multiclass | 69.72% | 56.70% | 48.50% |
 
 Binary screening performs strongly across both architectures. Multiclass severity
 grading is harder and motivates moving to CNNs, which is the current work in progress.
