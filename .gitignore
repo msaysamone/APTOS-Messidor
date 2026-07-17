@@ -1,0 +1,21 @@
+# Data (too large / not yours to redistribute)
+aptos2019/
+*.csv
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
